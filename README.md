@@ -15,7 +15,11 @@
  Note...
  When ever a state changes in react component it forces the component to re-render.
 
- 
+ # 2 UseReducer 
+   This hook is actually a replacement or alternative to the useState hook, this means that they have the same purpose, which means they allow the user or develpoer to  create variables, when there values are changed the component or page will re-render to show those values. 
+
+   Note:-
+   if you are trying to execute more than one function you want to execute you might want to consider the use of use reducer. This is so you van have a single state that will change throught out in an onclick event for example and also collectively manage the states.
 
 
 
