@@ -21,6 +21,10 @@
    Note:-
    if you are trying to execute more than one function you want to execute you might want to consider the use of use reducer. This is so you van have a single state that will change throught out in an onclick event for example and also collectively manage the states.
 
+# 3 UseRef
+     This hook is the easiest way to access and manipulate Dom element.
+   
+
 
 
 
