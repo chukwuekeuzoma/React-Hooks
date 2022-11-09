@@ -22,7 +22,17 @@
    if you are trying to execute more than one function you want to execute you might want to consider the use of use reducer. This is so you van have a single state that will change throught out in an onclick event for example and also collectively manage the states.
 
 # 3 UseRef
-     This hook is the easiest way to access and manipulate Dom element.
+    This hook is the easiest way to access and manipulate Dom element.
+
+# 4 useLayoutEffect 
+   This Hook is very similar to useEffect hook but the difference is that it renders before the useEffect Hook.
+   This is because the useEffect Hook is called after everything is rendered into the page and shown to the user,
+   wherease is called before the stuff is actually printed to the user.
+
+# 4 UseImperativeHandle
+     This Hook is use when the user wants to call a function from the outside, 
+     First you are going to use the forwardRef to that particular component so you can use useRef hook to access that component as a reference.
+   
    
 
 
