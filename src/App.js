@@ -1,12 +1,26 @@
-import {UseStateTutor, UseReducerTutor, UseRefTutor, ImperitiveHandleTutor } from "./Hooks"
+import {
+  UseStateTutor,
+  UseReducerTutor,
+  UseRefTutor,
+  ImperitiveHandleTutor,
+  ReactMemoTutor,
+} from "./Hooks";
 
 function App() {
   return (
-    <div style={{ display:"flex", justifyContent:"center", alignItems: "center", marginTop:"10%"}}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "10%",
+      }}
+    >
       {/* <UseStateTutor/>
       <UseReducerTutor/> */}
       {/* <UseRefTutor /> */}
-      <ImperitiveHandleTutor />
+      {/* <ImperitiveHandleTutor /> */}
+      <ReactMemoTutor />
     </div>
   );
 }
