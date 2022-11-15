@@ -59,9 +59,22 @@ Memoization this is an optimization technique used primarily to speed up compute
 
 The definition of Memoization in react is different, this does not keep a log of all the component based on the props you sent in, what is does it only compares the previous props to the new props and when does props change it rerenders.
 
+Or Simply you can say React Render if the Props has changed
+
 React.Memo:- This is a higher order function it creates components so you give it a component it wraps it and create another component.
 
 Check up for code example on the folders.
+
+# 6 UseMemo
+   This really works very well when you give it premitive values(booleans, Numbers and Strings) for props it does not work so well when you have object or arrays for props 
+  
+  it going to compare object and arrays by refrence.
+
+  Recommend using this hook when returing object and arrays
+
+# 7 UseCallBack
+  Anytime you we use UseCallback we get the same exact function back by reference 
+
 
 # Getting Started with Create React App
 
